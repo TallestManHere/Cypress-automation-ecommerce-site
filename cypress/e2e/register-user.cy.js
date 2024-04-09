@@ -82,11 +82,11 @@ describe('register-user', () => {
     cy
       .get('[data-qa="mobile_number"]')
       .type('20341234567')
+
+      cy
+        .get('[data-qa="create-account"]')
+        .click()
     
   })
 
-//   it('enter-account-information', () => {
-    
-
-//   })
 })
